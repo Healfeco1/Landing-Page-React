@@ -1,0 +1,34 @@
+body {
+    font-family: Lato;
+  }
+section{
+  padding: 2rem 0;
+}
+  
+.portfolio .portfolio-item{
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 15px;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+  transition: all .5s ease;
+  opacity: 0;
+  background-color: rgba(24,188,156,.9);
+}
+
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}
+
+a:hover{
+  color:#128f76;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a{
+  color: #18bc9c;
+  text-decoration: none;
+  background-color: transparent;
+}
