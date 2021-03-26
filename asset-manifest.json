@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.76e56564.chunk.css",
+    "main.js": "/static/js/main.a40388f4.chunk.js",
+    "main.js.map": "/static/js/main.a40388f4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.91507e18.js",
+    "runtime-main.js.map": "/static/js/runtime-main.91507e18.js.map",
+    "static/js/2.b126e51d.chunk.js": "/static/js/2.b126e51d.chunk.js",
+    "static/js/2.b126e51d.chunk.js.map": "/static/js/2.b126e51d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.76e56564.chunk.css.map": "/static/css/main.76e56564.chunk.css.map",
+    "static/js/2.b126e51d.chunk.js.LICENSE.txt": "/static/js/2.b126e51d.chunk.js.LICENSE.txt",
+    "static/media/cabin.png": "/static/media/cabin.44173302.png",
+    "static/media/cake.png": "/static/media/cake.65544730.png",
+    "static/media/circus.png": "/static/media/circus.494a4a91.png",
+    "static/media/game.png": "/static/media/game.a940b57a.png",
+    "static/media/profile.39e1e0a6.png": "/static/media/profile.39e1e0a6.png",
+    "static/media/safe.png": "/static/media/safe.01792c0b.png",
+    "static/media/submarine.png": "/static/media/submarine.48c9704c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91507e18.js",
+    "static/js/2.b126e51d.chunk.js",
+    "static/css/main.76e56564.chunk.css",
+    "static/js/main.a40388f4.chunk.js"
+  ]
+}
