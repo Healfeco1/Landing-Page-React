@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Healfeco1/Landing-Page-React.git/static/css/main.76e56564.chunk.css",
-    "main.js": "/Healfeco1/Landing-Page-React.git/static/js/main.a40388f4.chunk.js",
-    "main.js.map": "/Healfeco1/Landing-Page-React.git/static/js/main.a40388f4.chunk.js.map",
+    "main.css": "/Healfeco1/Landing-Page-React.git/static/css/main.65d18a50.chunk.css",
+    "main.js": "/Healfeco1/Landing-Page-React.git/static/js/main.c0cf4f14.chunk.js",
+    "main.js.map": "/Healfeco1/Landing-Page-React.git/static/js/main.c0cf4f14.chunk.js.map",
     "runtime-main.js": "/Healfeco1/Landing-Page-React.git/static/js/runtime-main.c137dd0e.js",
     "runtime-main.js.map": "/Healfeco1/Landing-Page-React.git/static/js/runtime-main.c137dd0e.js.map",
-    "static/js/2.b126e51d.chunk.js": "/Healfeco1/Landing-Page-React.git/static/js/2.b126e51d.chunk.js",
-    "static/js/2.b126e51d.chunk.js.map": "/Healfeco1/Landing-Page-React.git/static/js/2.b126e51d.chunk.js.map",
+    "static/js/2.8f60177a.chunk.js": "/Healfeco1/Landing-Page-React.git/static/js/2.8f60177a.chunk.js",
+    "static/js/2.8f60177a.chunk.js.map": "/Healfeco1/Landing-Page-React.git/static/js/2.8f60177a.chunk.js.map",
     "index.html": "/Healfeco1/Landing-Page-React.git/index.html",
-    "static/css/main.76e56564.chunk.css.map": "/Healfeco1/Landing-Page-React.git/static/css/main.76e56564.chunk.css.map",
-    "static/js/2.b126e51d.chunk.js.LICENSE.txt": "/Healfeco1/Landing-Page-React.git/static/js/2.b126e51d.chunk.js.LICENSE.txt",
+    "static/css/main.65d18a50.chunk.css.map": "/Healfeco1/Landing-Page-React.git/static/css/main.65d18a50.chunk.css.map",
+    "static/js/2.8f60177a.chunk.js.LICENSE.txt": "/Healfeco1/Landing-Page-React.git/static/js/2.8f60177a.chunk.js.LICENSE.txt",
     "static/media/cabin.png": "/Healfeco1/Landing-Page-React.git/static/media/cabin.44173302.png",
     "static/media/cake.png": "/Healfeco1/Landing-Page-React.git/static/media/cake.65544730.png",
     "static/media/circus.png": "/Healfeco1/Landing-Page-React.git/static/media/circus.494a4a91.png",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c137dd0e.js",
-    "static/js/2.b126e51d.chunk.js",
-    "static/css/main.76e56564.chunk.css",
-    "static/js/main.a40388f4.chunk.js"
+    "static/js/2.8f60177a.chunk.js",
+    "static/css/main.65d18a50.chunk.css",
+    "static/js/main.c0cf4f14.chunk.js"
   ]
 }
