@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import './Portfolio.css';
 import ModalInfo from '../ModalInfo/ModalInfo'
-import Button from 'react-bootstrap/Button';
+import Hr from '../Hr/Hr'
+import './Portfolio.css';
 
 export default function Portfolio() {
     const portfolio = ["cabin.png", "cake.png", "circus.png", "game.png", "safe.png", "submarine.png"];
@@ -24,7 +24,7 @@ export default function Portfolio() {
             <section id="portfolio" className="portfolio">
                 <div className="container">
                     <h2 className="text-uppercase text-center text-secondary">Portfolio</h2>
-                    <hr className="star-dark mb-5" />
+                    <Hr className="white"/>
                     <div className="row">
                         {portfolio1.map(i => {
                             return <div className="col-md-6 col-lg-4" key={i.img}>

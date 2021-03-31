@@ -1,11 +1,13 @@
 import React from 'react'
+import Hr from '../Hr/Hr'
 import './ContactMe.css'
+
 
 export default function ContactMe() {
     return (
-        <div className="container">
+        <div className="container" id="contact">
             <h2 className="contact text-uppercase text-center mt-3">Contact Me</h2>
-            <hr className="star-dark" />
+            <Hr className="white"/>
             <div className="row">
                 <div className="col-lg-8 mx-auto">
                     <form id="contactForm" name="sentMessage" noValidate="novalidate">

@@ -5,4 +5,24 @@
 .copyright {
     background-color: #1a252f;
   }
+  .social-media{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    font-size: 20px;
+    line-height: 45px;
+    transition: all .3s ease-in-out;
+    width: 70px;
+    height: 70px;
+}
+i{
+  font-size: 25px;
+}
+  .social-media:hover{
+    color: #18bc9c;
+    background-color: #fff;
+}
   

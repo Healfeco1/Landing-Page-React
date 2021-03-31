@@ -1,0 +1,60 @@
+hr.star-dark, hr.star-light {
+    /* max-width: 15rem; */
+    /* border: none; */
+    /* border-top: .25rem solid; */
+    /* margin-top: 1.2rem; */
+    /* margin-bottom: 2.5rem; */
+}
+hr.star-dark:after, hr.star-light:after {
+    /* position: relative; */
+    /* top: -.8em; */
+    /* display: inline-block; */
+    /* padding: 0 .25em; */
+    /* content: "\f005"; */
+    /* font-family: FontAwesome; */
+    /* font-size: 2; */
+    /* padding: 0px 1em; */
+}
+hr.star-light:after {
+    /* color: #fff; */
+    /* background-color: #18bc9c; */
+}
+/* hr.star-dark:after {
+    color: #fff;
+    background-color: #fff;
+} */
+/* hr.star-dark, hr.star-light{
+    text-align: center;
+} */
+/* hr.star-dark
+{
+    left: 20.7rem;
+    background: red!important;
+} */
+
+
+/* Mine HR with star icon */
+
+#hr{
+    display: flex;
+    position: relative;
+    max-width: 15rem;
+    border: none;
+    border-top: .25rem solid;
+    justify-content: center;
+}
+.fa-star{
+    position: relative;
+    top: -1.3em;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 .35em;
+}
+
+.white{
+    background:#fff;
+}
+
+.about{
+    background-color: #18bc9c;
+}

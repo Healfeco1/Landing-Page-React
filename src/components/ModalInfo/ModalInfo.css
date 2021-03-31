@@ -1,0 +1,26 @@
+.btn-close, .btn-close:hover{
+    background-color: #18bc9c;
+    border-color: #18bc9c;
+    border-radius: 50em;
+}
+
+.close, .close:hover{
+    color: #18bc9c;
+    font-size: 3rem;
+}
+
+.description{
+    font-size: .6rem;
+}
+
+.modal-header{
+    padding: 0;
+    border-bottom: none;
+    display: inline-block;
+    position: fixed;
+    right: 1rem;
+}
+#hr > i {
+    left: 20.7rem;
+    background: red!important;
+}
