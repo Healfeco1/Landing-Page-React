@@ -5,7 +5,7 @@ import './styles.css';
 
 export default function Container() {
     return (
-        <header className="text-white masthead mt-5 pt-5" id="page-top">
+        <header className="text-white masthead" id="page-top">
             <div className="container">
                 <img className="img-fluid d-block mx-auto mb-5 pt-5" src={profile} />
                 <Hr className="about"/>

@@ -22,7 +22,7 @@ export default function Portfolio() {
     return (
         <>
             <section id="portfolio" className="portfolio">
-                <div className="container">
+                <div className="container pt-5">
                     <h2 className="text-uppercase text-center text-secondary">Portfolio</h2>
                     <Hr className="white"/>
                     <div className="row">

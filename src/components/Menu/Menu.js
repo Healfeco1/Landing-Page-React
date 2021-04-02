@@ -1,41 +1,37 @@
 import React from 'react';
 import * as ReactBootstrap from 'react-bootstrap';
+import Scrollspy from 'react-scrollspy'
 import './styles.css';
 
-class Menu extends React.Component{
-    componentDidMount(){
+class Menu extends React.Component {
+    componentDidMount() {
         window.addEventListener("scroll", this.resizeHeaderOnScroll);
     }
-    resizeHeaderOnScroll(){
+    resizeHeaderOnScroll() {
         const distanceY = window.pageYOffset || document.documentElement.scrollTop,
-        shrinkOn = 200,
-        headerElement = document.getElementById("mainNav");
+            shrinkOn = 200,
+            headerElement = document.getElementById("mainNav");
 
-        if(distanceY > shrinkOn){
-            headerElement.classList.add("navbar-shrink");
-        }else{
-            headerElement.classList.remove("navbar-shrink");
+        if (distanceY > shrinkOn) {
+            headerElement.classList.add("navScroll");
+        } else {
+            headerElement.classList.remove("navScroll");
         }
     }
-    render(){
-        const categories = ["portfolio","about","contact"];
-        return(
-            <ReactBootstrap.Navbar bg="categories" variant="categories" expand="lg" id="mainNav" className="fixed-top text-uppercase">
+    render() {
+        const categories = ["portfolio", "about", "contact"];
+        return (
+            <ReactBootstrap.Navbar expand="lg" id="mainNav" className="fixed-top text-uppercase">
                 <div className="container">
-                    <ReactBootstrap.Navbar.Brand id="mainNav1"  className="text-white js-scroll-trigger" href="#page-top">Brand</ReactBootstrap.Navbar.Brand>
+                    <ReactBootstrap.Navbar.Brand id="mainNav1" className="text-white js-scroll-trigger" href="#">Brand</ReactBootstrap.Navbar.Brand>
                     <ReactBootstrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <ReactBootstrap.Navbar.Collapse id="basic-navbar-nav">
                         <ReactBootstrap.Nav className="ml-auto">
-                        {Object.values(categories).map(category => {
-                            return <ReactBootstrap.Nav.Link className="categories" key={category} href={'#'+category}>{category}</ReactBootstrap.Nav.Link>
-                        })}
-                        {/* <ReactBootstrap.NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                            <ReactBootstrap.NavDropdown.Item href="#action/3.1">Action</ReactBootstrap.NavDropdown.Item>
-                            <ReactBootstrap.NavDropdown.Item href="#action/3.2">Another action</ReactBootstrap.NavDropdown.Item>
-                            <ReactBootstrap.NavDropdown.Item href="#action/3.3">Something</ReactBootstrap.NavDropdown.Item>
-                            <ReactBootstrap.NavDropdown.Divider />
-                            <ReactBootstrap.NavDropdown.Item href="#action/3.4">Separated link</ReactBootstrap.NavDropdown.Item>
-                        </ReactBootstrap.NavDropdown> */}
+                            {Object.values(categories).map(category => {
+                                return <Scrollspy items={[category]} currentClassName="menuActivo" scrolledPastClassName="scrolledPased" className="ul">
+                                    <ReactBootstrap.Nav.Link className="categories" href={'#' + category}>{category}</ReactBootstrap.Nav.Link>
+                                </Scrollspy>
+                            })}
                         </ReactBootstrap.Nav>
                     </ReactBootstrap.Navbar.Collapse>
                 </div>
@@ -44,9 +40,8 @@ class Menu extends React.Component{
     }
 }
 
-// function Menu() {
-    
-    
-// }
+export default Menu;
 
-export default Menu; 
+/**
+ *
+ */
